@@ -1,0 +1,6 @@
+.idea
+node_modules
+*.js
+*.d.ts
+*.js.map
+!/types/*.d.ts

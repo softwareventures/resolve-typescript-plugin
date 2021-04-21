@@ -1,0 +1,4 @@
+{
+  "extends": "@softwareventures/tsconfig",
+  "exclude": ["**/*.test.ts", "**/test.ts"]
+}

@@ -1,0 +1,7 @@
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/resolve-typescript-plugin.iml" filepath="$PROJECT_DIR$/.idea/resolve-typescript-plugin.iml" />
+    </modules>
+  </component>
+</project>
