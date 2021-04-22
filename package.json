@@ -1,5 +1,4 @@
 {
-  "private": true,
   "name": "resolve-typescript-plugin",
   "version": "0.0.0-development",
   "description": "webpack plugin to resolve TypeScript files when importing with js file extension in ESM projects",
@@ -62,5 +61,8 @@
   },
   "release": {
     "extends": "@softwareventures/semantic-release-config"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
