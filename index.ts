@@ -6,8 +6,7 @@ const pluginName = "ResolveTypescriptPlugin";
 
 export default class ResolveTypescriptPlugin {
     public apply(resolver: Resolver): void {
-        const target = "file";
-        resolver.ensureHook(target);
+        const target = resolver.ensureHook("file");
         resolver.getHook("raw-file").tapAsync(pluginName, (request, resolveContext, callback) => {
             const path = request.path && request.path.replace(/\.js$/, ".ts");
             if (path === request.path) {
