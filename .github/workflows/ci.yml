@@ -25,7 +25,7 @@ jobs:
           key: ${{runner.os}}-node${{matrix.node-version}}-yarn-${{hashFiles('**/yarn.lock')}}
           restore-keys: ${{runner.os}}-node${{matrix.node-version}}-yarn-
       - name: Set up Node.js v${{matrix.node-version}}
-        uses: actions/setup-node@v1
+        uses: actions/setup-node@v2
         with:
           node-version: ${{matrix.node-version}}
       - run: yarn
@@ -48,7 +48,7 @@ jobs:
           key: ${{runner.os}}-node${{env.DEPLOY_NODE_VERSION}}-yarn-${{hashFiles('**/yarn.lock')}}
           restore-keys: ${{runner.os}}-node${{env.DEPLOY_NODE_VERSION}}-yarn-
       - name: Set up Node.js
-        uses: actions/setup-node@v1
+        uses: actions/setup-node@v2
         with:
           node-version: ${{env.DEPLOY_NODE_VERSION}}
       - run: yarn
