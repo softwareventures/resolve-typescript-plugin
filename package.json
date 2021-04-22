@@ -3,7 +3,13 @@
   "name": "resolve-typescript-plugin",
   "version": "0.0.0-development",
   "description": "webpack plugin to resolve TypeScript files when importing with js file extension in ESM projects",
-  "keywords": ["TypeScript", "webpack", "ESM", "resolve", "plugin"],
+  "keywords": [
+    "TypeScript",
+    "webpack",
+    "ESM",
+    "resolve",
+    "plugin"
+  ],
   "author": "Daniel Cassidy <mail@danielcassidy.me.uk>",
   "homepage": "https://github.com/softwareventures/resolve-typescript-plugin",
   "bugs": "https://github.com/softwareventures/resolve-typescript-plugin/issues",
