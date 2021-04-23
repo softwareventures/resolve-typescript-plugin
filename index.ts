@@ -8,7 +8,11 @@ export default class ResolveTypescriptPlugin {
     public apply(resolver: Resolver): void {
         const target = resolver.ensureHook("file");
         resolver.getHook("raw-file").tapAsync(pluginName, (request, resolveContext, callback) => {
-            const path = request.path && request.path.replace(/\.js$/, ".ts");
+            if (!request.path || request.path.split(/[\\/]/).indexOf("node_modules") >= 0) {
+                return callback();
+            }
+
+            const path = request.path.replace(/\.js$/, ".ts");
             if (path === request.path) {
                 callback();
             } else {
