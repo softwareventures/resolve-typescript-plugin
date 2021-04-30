@@ -456,10 +456,10 @@
   dependencies:
     tslib "2.0.0"
 
-"@softwareventures/tsconfig@5.0.1":
-  version "5.0.1"
-  resolved "https://registry.yarnpkg.com/@softwareventures/tsconfig/-/tsconfig-5.0.1.tgz#9be2d6dcdc3de65233014c527754700f46882bbb"
-  integrity sha512-B1LBY+S7dDiPmH29MTi3Z3hBdSEetHf87cmUueQCSlrbpFpROZvDZrnujM844wXKNue5XYIe5oO8jp/eWCfY9w==
+"@softwareventures/tsconfig@5.1.0":
+  version "5.1.0"
+  resolved "https://registry.yarnpkg.com/@softwareventures/tsconfig/-/tsconfig-5.1.0.tgz#bee139d5e6fccf5237fa7dbcdbf8ac7d12ac33d0"
+  integrity sha512-D85kPab/iU9SKQRPi76eBnLa060kJEvI+M6PLzdfuq1nS+G7020NORHf5Lr6boLzxVe/PXNywTSUzbkslDkSrg==
 
 "@szmarczak/http-timer@^1.1.2":
   version "1.1.2"
