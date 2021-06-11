@@ -23,7 +23,7 @@
     "test": "ava"
   },
   "dependencies": {
-    "tslib": "2.2.0"
+    "tslib": "2.3.0"
   },
   "devDependencies": {
     "@softwareventures/eslint-config": "3.6.2",
