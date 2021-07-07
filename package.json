@@ -3,11 +3,11 @@
   "version": "0.0.0-development",
   "description": "webpack plugin to resolve TypeScript files when importing with js file extension in ESM projects",
   "keywords": [
-    "TypeScript",
-    "webpack",
     "ESM",
+    "TypeScript",
+    "plugin",
     "resolve",
-    "plugin"
+    "webpack"
   ],
   "author": "Daniel Cassidy <mail@danielcassidy.me.uk>",
   "homepage": "https://github.com/softwareventures/resolve-typescript-plugin",
@@ -24,6 +24,9 @@
   "dependencies": {
     "tslib": "2.3.0"
   },
+  "peerDependencies": {
+    "webpack": "^5.0.0"
+  },
   "devDependencies": {
     "@softwareventures/eslint-config": "3.6.2",
     "@softwareventures/prettier-config": "1.0.2",
@@ -37,9 +40,6 @@
     "ts-node": "9.1.1",
     "typescript": "4.3.5",
     "webpack": "5.43.0"
-  },
-  "peerDependencies": {
-    "webpack": "^5.0.0"
   },
   "eslintConfig": {
     "root": true,
