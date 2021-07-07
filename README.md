@@ -47,7 +47,16 @@ yarn add --dev resolve-typescript-plugin
 
 ## Usage
 
-Configure webpack something like this:
+Include the following in `package.json` to configure your project to be an ES
+Module:
+
+```json
+{
+    "type": "module"
+}
+```
+
+Include something like the following in `webpack.config.js`:
 
 ```js
 const ResolveTypeScriptPlugin = require("resolve-typescript-plugin").default;
@@ -70,6 +79,13 @@ exports = {
 
 You will also need to have [ts-loader][4] (or another TypeScript loader)
 installed and configured.
+
+The `resolve.fullySpecified` option configures webpack to require file
+extensions except when importing external modules by name. This is consistent
+with node's implementation of ES Modules.
+
+If you set `resolve.fullySpecified` you should also delete the
+`resolve.extensions` option, if any.
 
 ## Feedback
 
