@@ -16,7 +16,7 @@
   "license": "ISC",
   "scripts": {
     "fix": "eslint . --fix && prettier --write .",
-    "lint": "eslint . && prettier --check .",
+    "lint": "tsc --noEmit && eslint . && prettier --check .",
     "prepare": "tsc",
     "semantic-release": "semantic-release",
     "test": "ava"
