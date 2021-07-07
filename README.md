@@ -87,6 +87,23 @@ with node's implementation of ES Modules.
 If you set `resolve.fullySpecified` you should also delete the
 `resolve.extensions` option, if any.
 
+## Options
+
+Pass options to the plugin as an argument to the constructor, as follows:
+
+```js
+new ResolveTypeScriptPlugin({
+    includeNodeModules: false
+});
+```
+
+### includeNodeModules
+
+By default, the plugin does not resolve TypeScript files inside `node_modules`
+subdirectories. To enable this, set `includeNodeModules: true`.
+
+Default: `false`.
+
 ## Feedback
 
 We're seeking [community feedback][5] on this plugin.
