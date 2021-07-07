@@ -4,7 +4,7 @@ env:
   CI: true
   GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
   NPM_TOKEN: ${{secrets.NPM_TOKEN}}
-  DEPLOY_NODE_VERSION: 14.x
+  DEPLOY_NODE_VERSION: 16.x
 jobs:
   build-and-test:
     name: Build and Test
