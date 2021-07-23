@@ -71,7 +71,7 @@ exports = {
         ]
     },
     resolve: {
-        fullySpecfied: true,
+        fullySpecified: true,
         plugins: [new ResolveTypeScriptPlugin()]
     }
 };
