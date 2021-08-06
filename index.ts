@@ -33,7 +33,7 @@ export default class ResolveTypescriptPlugin {
                         return callback();
                     }
 
-                    const path = request.path.replace(/\.js$/, extension);
+                    const path = request.path.replace(/\.jsx?$/, extension);
                     if (path === request.path) {
                         callback();
                     } else {
@@ -44,7 +44,7 @@ export default class ResolveTypescriptPlugin {
                                 path,
                                 relativePath:
                                     request.relativePath &&
-                                    request.relativePath.replace(/\.js$/, extension)
+                                    request.relativePath.replace(/\.jsx?$/, extension)
                             },
                             `using path: ${path}`,
                             resolveContext,
