@@ -480,10 +480,10 @@
   resolved "https://registry.yarnpkg.com/@sindresorhus/is/-/is-0.14.0.tgz#9fb3a3cf3132328151f353de4632e01e52102bea"
   integrity sha512-9NET910DNaIPngYnLLPeg+Ogzqsi9uM4mSboU5y6p8S5DzMTVEsJZrawi+BoDNUVBa2DhJqQYUFvMDfgU062LQ==
 
-"@softwareventures/eslint-config@4.3.0":
-  version "4.3.0"
-  resolved "https://registry.yarnpkg.com/@softwareventures/eslint-config/-/eslint-config-4.3.0.tgz#a9d38d5d8b71e4cd06e63881597f50975325943d"
-  integrity sha512-EbB56NkFlWOIP47kfYoPjyoD1nmf+S9exSZwNIgvV8sr7gdhGKVaiIoLnVk8N4OQhjV+YAUokOvyg5B3c10bVQ==
+"@softwareventures/eslint-config@4.3.1":
+  version "4.3.1"
+  resolved "https://registry.yarnpkg.com/@softwareventures/eslint-config/-/eslint-config-4.3.1.tgz#ff1483a26631529ab071320f547e2da68dfdd15f"
+  integrity sha512-poahWbW6eAm2JttWIAGzYdK6UyUp2sxArCBAqIFhKndrGsAQqe9aNBfk1iZytm40UIldJrUsE1coEdyJRbZA8g==
   dependencies:
     "@typescript-eslint/eslint-plugin" "^4.21.0"
     "@typescript-eslint/parser" "^4.0.0"
