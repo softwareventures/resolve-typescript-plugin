@@ -71,7 +71,6 @@ exports = {
         ]
     },
     resolve: {
-        fullySpecified: true,
         plugins: [new ResolveTypeScriptPlugin()]
     }
 };
@@ -80,12 +79,12 @@ exports = {
 You will also need to have [ts-loader][4] (or another TypeScript loader)
 installed and configured.
 
-The `resolve.fullySpecified` option configures webpack to require file
-extensions except when importing external modules by name. This is consistent
-with node's implementation of ES Modules.
+Previous versions of this README recommended setting `resolve.fullySpecified` to
+`true`. This is no longer recommended because it breaks compatibility with
+webpack-dev-server and possibly other webpack tooling.
 
-If you set `resolve.fullySpecified` you should also delete the
-`resolve.extensions` option, if any.
+If you use this plugin, you should probably remove `.ts` and `.tsx` from
+`resolve.extensions`.
 
 ## Options
 
