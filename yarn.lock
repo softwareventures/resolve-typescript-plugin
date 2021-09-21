@@ -494,12 +494,12 @@
     eslint-plugin-sonarjs "^0.10.0"
     tslib "^2.0.0"
 
-"@softwareventures/prettier-config@1.0.2":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@softwareventures/prettier-config/-/prettier-config-1.0.2.tgz#309a1b3509c7779be8ea78697df9fcf2cc2ca423"
-  integrity sha512-g+BkqIbH3hAo5IGwgONjVh+sZUYR9ia+KXIs0/iGjESr406ijMm7sVxGcNhJMSIZeiBvaDNx5yarnnbt07C72g==
+"@softwareventures/prettier-config@1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@softwareventures/prettier-config/-/prettier-config-1.0.3.tgz#dac16415dfe766aeb24f301f1d62d3590f7bc819"
+  integrity sha512-rOUgvN4rvp8oJxJA3J90dDFe4Z6CXBL6Rr0GNUe/qRAvWxjRKeV6Pg5YQ9l5qkxbBow2tWlFBDjdZoiUztFCfg==
   dependencies:
-    tslib "1.11.2"
+    tslib "1.14.1"
 
 "@softwareventures/semantic-release-config@2.0.0":
   version "2.0.0"
@@ -5905,10 +5905,10 @@ tsconfig-paths@^3.11.0:
     minimist "^1.2.0"
     strip-bom "^3.0.0"
 
-tslib@1.11.2:
-  version "1.11.2"
-  resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.11.2.tgz#9c79d83272c9a7aaf166f73915c9667ecdde3cc9"
-  integrity sha512-tTSkux6IGPnUGUd1XAZHcpu85MOkIl5zX49pO+jfsie3eP0B6pyhOlLXm3cAC6T7s+euSDDUUV+Acop5WmtkVg==
+tslib@1.14.1, tslib@^1.8.1, tslib@^1.9.0:
+  version "1.14.1"
+  resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.14.1.tgz#cf2d38bdc34a134bcaf1091c41f6619e2f672d00"
+  integrity sha512-Xni35NKzjgMrwevysHTCArtLDpPvye8zV/0E4EyYn43P7/7qvQwPh9BGkHewbMulVntbigmcT7rdX3BNo9wRJg==
 
 tslib@2.3.0:
   version "2.3.0"
@@ -5919,11 +5919,6 @@ tslib@2.3.1, tslib@^2.0.0:
   version "2.3.1"
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.3.1.tgz#e8a335add5ceae51aa261d32a490158ef042ef01"
   integrity sha512-77EbyPPpMz+FRFRuAFlWMtmgUWGe9UOG2Z25NqCwiIjRhOf5iKGuzSe5P2w1laq+FkRy4p+PCuVkJSGkzTEKVw==
-
-tslib@^1.8.1, tslib@^1.9.0:
-  version "1.14.1"
-  resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.14.1.tgz#cf2d38bdc34a134bcaf1091c41f6619e2f672d00"
-  integrity sha512-Xni35NKzjgMrwevysHTCArtLDpPvye8zV/0E4EyYn43P7/7qvQwPh9BGkHewbMulVntbigmcT7rdX3BNo9wRJg==
 
 tsutils@^3.21.0:
   version "3.21.0"
