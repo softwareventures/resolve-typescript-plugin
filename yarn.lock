@@ -509,10 +509,10 @@
   resolved "https://registry.yarnpkg.com/@sindresorhus/is/-/is-0.14.0.tgz#9fb3a3cf3132328151f353de4632e01e52102bea"
   integrity sha512-9NET910DNaIPngYnLLPeg+Ogzqsi9uM4mSboU5y6p8S5DzMTVEsJZrawi+BoDNUVBa2DhJqQYUFvMDfgU062LQ==
 
-"@softwareventures/eslint-config@4.3.1":
-  version "4.3.1"
-  resolved "https://registry.yarnpkg.com/@softwareventures/eslint-config/-/eslint-config-4.3.1.tgz#ff1483a26631529ab071320f547e2da68dfdd15f"
-  integrity sha512-poahWbW6eAm2JttWIAGzYdK6UyUp2sxArCBAqIFhKndrGsAQqe9aNBfk1iZytm40UIldJrUsE1coEdyJRbZA8g==
+"@softwareventures/eslint-config@4.3.2":
+  version "4.3.2"
+  resolved "https://registry.yarnpkg.com/@softwareventures/eslint-config/-/eslint-config-4.3.2.tgz#4a537bc977aba175005d21df5ecf9b66a525be14"
+  integrity sha512-juFP7xRfonKelfBjZu1hV+OVDxGWk7gJsUrhXNHALPEhJN6YZOFT9Y/3eqz3oFc7IQvYuRv1kWZobi9PJdLtqA==
   dependencies:
     "@typescript-eslint/eslint-plugin" "^4.21.0"
     "@typescript-eslint/parser" "^4.0.0"
@@ -520,7 +520,7 @@
     eslint-plugin-import "^2.20.2"
     eslint-plugin-jsdoc "^36.0.0"
     eslint-plugin-prefer-arrow "^1.2.1"
-    eslint-plugin-sonarjs "^0.10.0"
+    eslint-plugin-sonarjs "^0.10.0 || ^0.11.0"
     tslib "^2.0.0"
 
 "@softwareventures/prettier-config@2.0.0":
@@ -2262,10 +2262,10 @@ eslint-plugin-prefer-arrow@^1.2.1:
   resolved "https://registry.yarnpkg.com/eslint-plugin-prefer-arrow/-/eslint-plugin-prefer-arrow-1.2.3.tgz#e7fbb3fa4cd84ff1015b9c51ad86550e55041041"
   integrity sha512-J9I5PKCOJretVuiZRGvPQxCbllxGAV/viI20JO3LYblAodofBxyMnZAJ+WGeClHgANnSJberTNoFWWjrWKBuXQ==
 
-eslint-plugin-sonarjs@^0.10.0:
-  version "0.10.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-sonarjs/-/eslint-plugin-sonarjs-0.10.0.tgz#2b520c6d0dbdecbea98cd82f5cb84fc5c3d2b954"
-  integrity sha512-FBRIBmWQh2UAfuLSnuYEfmle33jIup9hfkR0X8pkfjeCKNpHUG8qyZI63ahs3aw8CJrv47QJ9ccdK3ZxKH016A==
+"eslint-plugin-sonarjs@^0.10.0 || ^0.11.0":
+  version "0.11.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-sonarjs/-/eslint-plugin-sonarjs-0.11.0.tgz#46d18bc4066c66e490de057253b9cc97bde9f176"
+  integrity sha512-ei/WuZiL0wP+qx2KrxKyZs3+eDbxiGAhFSm3GKCOOAUkg+G2ny6TSXDB2j67tvyqHefi+eoQsAgGQvz+nEtIBw==
 
 eslint-scope@5.1.1, eslint-scope@^5.1.1:
   version "5.1.1"
