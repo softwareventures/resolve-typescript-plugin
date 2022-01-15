@@ -17,7 +17,7 @@
   "scripts": {
     "fix": "tsc --noEmit && eslint . --fix && prettier --write .",
     "lint": "tsc --noEmit && eslint . && prettier --check .",
-    "prepare": "tsc",
+    "prepare": "tsc && node ./fix-types-for-back-compat.js",
     "semantic-release": "semantic-release",
     "test": "ava"
   },

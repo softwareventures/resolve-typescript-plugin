@@ -9,6 +9,7 @@ npm-debug.log*
 *.d.ts
 *.js.map
 !/types/*.d.ts
+!/fix-types-for-back-compat.js
 
 # macOS
 .DS_Store

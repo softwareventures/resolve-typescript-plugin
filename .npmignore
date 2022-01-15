@@ -8,6 +8,7 @@
 /.snyk
 *.ts
 !*.d.ts
+/fix-types-for-back-compat.js
 
 # yarn and npm
 package-lock.json
