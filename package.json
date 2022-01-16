@@ -14,10 +14,14 @@
   "bugs": "https://github.com/softwareventures/resolve-typescript-plugin/issues",
   "repository": "github:softwareventures/resolve-typescript-plugin",
   "license": "ISC",
+  "exports": {
+    ".": "./index.js"
+  },
+  "types": "index.d.ts",
   "scripts": {
     "fix": "tsc --noEmit && eslint . --fix && prettier --write .",
     "lint": "tsc --noEmit && eslint . && prettier --check .",
-    "prepare": "tsc",
+    "prepare": "tsc && node ./fix-types-for-back-compat.js",
     "semantic-release": "semantic-release",
     "test": "ava"
   },

@@ -4,11 +4,15 @@ type Resolver = NonNullable<ResolveOptions["resolver"]>;
 
 const pluginName = "ResolveTypescriptPlugin";
 
-export interface ResolveTypescriptPluginOptions {
+interface ResolveTypescriptPluginOptions {
     includeNodeModules?: boolean;
 }
 
-export default class ResolveTypescriptPlugin {
+class ResolveTypescriptPlugin {
+    /** @deprecated For backwards compatibility with versions < v1.2.
+     * Will be removed in v2.0. */
+    public static default = ResolveTypescriptPlugin;
+
     private static defaultOptions: ResolveTypescriptPluginOptions = {
         includeNodeModules: false
     };
@@ -55,3 +59,5 @@ export default class ResolveTypescriptPlugin {
         }
     }
 }
+
+export = ResolveTypescriptPlugin;
