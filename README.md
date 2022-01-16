@@ -61,7 +61,7 @@ Include something like the following in `webpack.config.js`:
 ```js
 const ResolveTypeScriptPlugin = require("resolve-typescript-plugin");
 
-exports = {
+module.exports = {
     module: {
         rules: [
             {
