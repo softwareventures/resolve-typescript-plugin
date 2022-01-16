@@ -9,7 +9,7 @@ interface ResolveTypescriptPluginOptions {
 }
 
 class ResolveTypescriptPlugin {
-    /** @deprecated For backwards compatibility with versions < v1.2.
+    /** @deprecated For backwards compatibility with versions < v1.1.2.
      * Will be removed in v2.0. */
     public static default = ResolveTypescriptPlugin;
 
