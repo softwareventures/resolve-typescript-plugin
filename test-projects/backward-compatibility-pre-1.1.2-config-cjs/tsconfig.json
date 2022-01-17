@@ -1,6 +1,7 @@
 {
   "extends": "@softwareventures/tsconfig",
   "compilerOptions": {
-    "declaration": false
+    "declaration": false,
+    "module": "ES2020"
   }
 }
