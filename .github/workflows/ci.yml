@@ -29,12 +29,12 @@ jobs:
         with:
           node-version: ${{matrix.node-version}}
       - run: yarn
-      - run: yarn test
+      - run: yarn test-projects
       - run: yarn lint
   deploy:
     name: Deploy
     runs-on: ubuntu-latest
-    needs: build-and-test
+    needs: build-and-test-projects
     steps:
       - name: Find yarn cache
         id: find-yarn-cache

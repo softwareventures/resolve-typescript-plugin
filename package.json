@@ -39,6 +39,7 @@
     "@softwareventures/prettier-config": "2.0.0",
     "@softwareventures/semantic-release-config": "2.0.0",
     "@softwareventures/tsconfig": "5.1.0",
+    "@types/node": "16.11.7",
     "ava": "4.0.1",
     "cz-conventional-changelog": "3.3.0",
     "eslint": "7.32.0",
@@ -46,7 +47,8 @@
     "semantic-release": "17.4.7",
     "ts-node": "10.4.0",
     "typescript": "4.5.4",
-    "webpack": "5.66.0"
+    "webpack": "5.66.0",
+    "yarn": "1.22.17"
   },
   "eslintConfig": {
     "root": true,
@@ -64,7 +66,8 @@
     ],
     "require": [
       "ts-node/register/files"
-    ]
+    ],
+    "timeout": "10m"
   },
   "release": {
     "extends": "@softwareventures/semantic-release-config"

@@ -1,7 +1,8 @@
 /.idea/workspace.xml
 /.idea/tasks.xml
 /.idea/shelf
-/node_modules
+node_modules
+dist
 package-lock.json
 yarn-error.log
 npm-debug.log*
