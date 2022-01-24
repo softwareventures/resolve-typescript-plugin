@@ -480,19 +480,19 @@
     lodash "^4.17.4"
     read-pkg-up "^7.0.0"
 
-"@softwareventures/eslint-config@4.3.5":
-  version "4.3.5"
-  resolved "https://registry.yarnpkg.com/@softwareventures/eslint-config/-/eslint-config-4.3.5.tgz#d56055664f4fddde1f01455728c1555b3e8da3fd"
-  integrity sha512-Y23N8bhiVgzWXSvafHOfqVXTOPb9Y61K0nIjbhsu7RuGYQuQW69L3r2ryOhGDyGngd+MKh4PAi0grAVph9LaJA==
+"@softwareventures/eslint-config@5.0.1":
+  version "5.0.1"
+  resolved "https://registry.yarnpkg.com/@softwareventures/eslint-config/-/eslint-config-5.0.1.tgz#b981a60ef6a3f5718d30e3c3c2e80122dd262057"
+  integrity sha512-aMaCmi8MkbvtXAMXS/crLtVtypDO7NCfiMheRwrGc9RscGsFpuLpLXjzwGK7XrJuZnFQVmZNOSGLBNAAciLSQQ==
   dependencies:
-    "@typescript-eslint/eslint-plugin" "^4.21.0 || ^5.0.0"
-    "@typescript-eslint/parser" "^4.0.0 || ^5.0.0"
+    "@typescript-eslint/eslint-plugin" "^5.3.0 || ^5.0.0"
+    "@typescript-eslint/parser" "^5.3.0 || ^5.0.0"
     eslint-config-prettier "^8.3.0"
-    eslint-plugin-import "^2.20.2"
-    eslint-plugin-jsdoc "^36.0.0 || ^37.0.0"
-    eslint-plugin-prefer-arrow "^1.2.1"
+    eslint-plugin-import "^2.25.2"
+    eslint-plugin-jsdoc "^37.0.3"
+    eslint-plugin-prefer-arrow "^1.2.3"
     eslint-plugin-sonarjs "^0.10.0 || ^0.11.0"
-    tslib "^2.0.0"
+    tslib "^2.3.1"
 
 "@softwareventures/prettier-config@2.0.0":
   version "2.0.0"
@@ -599,7 +599,7 @@
   resolved "https://registry.yarnpkg.com/@types/retry/-/retry-0.12.1.tgz#d8f1c0d0dc23afad6dc16a9e993a0865774b4065"
   integrity sha512-xoDlM2S4ortawSWORYqsdU+2rxdh4LRW9ytc3zmT37RIKQh6IHyKwwtKhKis9ah8ol07DCkZxPt8BBvPjC6v4g==
 
-"@typescript-eslint/eslint-plugin@^4.21.0 || ^5.0.0":
+"@typescript-eslint/eslint-plugin@^5.3.0 || ^5.0.0":
   version "5.10.0"
   resolved "https://registry.yarnpkg.com/@typescript-eslint/eslint-plugin/-/eslint-plugin-5.10.0.tgz#e90afea96dff8620892ad216b0e4ccdf8ee32d3a"
   integrity sha512-XXVKnMsq2fuu9K2KsIxPUGqb6xAImz8MEChClbXmE3VbveFtBUU5bzM6IPVWqzyADIgdkS2Ws/6Xo7W2TeZWjQ==
@@ -614,7 +614,7 @@
     semver "^7.3.5"
     tsutils "^3.21.0"
 
-"@typescript-eslint/parser@^4.0.0 || ^5.0.0":
+"@typescript-eslint/parser@^5.3.0 || ^5.0.0":
   version "5.10.0"
   resolved "https://registry.yarnpkg.com/@typescript-eslint/parser/-/parser-5.10.0.tgz#8f59e036f5f1cffc178cacbd5ccdd02aeb96c91c"
   integrity sha512-pJB2CCeHWtwOAeIxv8CHVGJhI5FNyJAIpx5Pt72YkK3QfEzt6qAlXZuyaBmyfOdM62qU0rbxJzNToPTVeJGrQw==
@@ -2090,7 +2090,7 @@ eslint-module-utils@^2.7.2:
     debug "^3.2.7"
     find-up "^2.1.0"
 
-eslint-plugin-import@^2.20.2:
+eslint-plugin-import@^2.25.2:
   version "2.25.4"
   resolved "https://registry.yarnpkg.com/eslint-plugin-import/-/eslint-plugin-import-2.25.4.tgz#322f3f916a4e9e991ac7af32032c25ce313209f1"
   integrity sha512-/KJBASVFxpu0xg1kIBn9AUa8hQVnszpwgE7Ld0lKAlx7Ie87yzEzCgSkekt+le/YVhiaosO4Y14GDAOc41nfxA==
@@ -2109,7 +2109,7 @@ eslint-plugin-import@^2.20.2:
     resolve "^1.20.0"
     tsconfig-paths "^3.12.0"
 
-"eslint-plugin-jsdoc@^36.0.0 || ^37.0.0":
+eslint-plugin-jsdoc@^37.0.3:
   version "37.6.3"
   resolved "https://registry.yarnpkg.com/eslint-plugin-jsdoc/-/eslint-plugin-jsdoc-37.6.3.tgz#d80e831af3de928274df913c5c9e5a3d7b0889d1"
   integrity sha512-Ysd1ZK4kL7DjjRJtWzb6Z7YANu7ndalu5PQBhOn07SlpKQ/+8JXvdtQ6yyADOO8w9xW5ZEEzuGY3KWhtk4CRYA==
@@ -2123,7 +2123,7 @@ eslint-plugin-import@^2.20.2:
     semver "^7.3.5"
     spdx-expression-parse "^3.0.1"
 
-eslint-plugin-prefer-arrow@^1.2.1:
+eslint-plugin-prefer-arrow@^1.2.3:
   version "1.2.3"
   resolved "https://registry.yarnpkg.com/eslint-plugin-prefer-arrow/-/eslint-plugin-prefer-arrow-1.2.3.tgz#e7fbb3fa4cd84ff1015b9c51ad86550e55041041"
   integrity sha512-J9I5PKCOJretVuiZRGvPQxCbllxGAV/viI20JO3LYblAodofBxyMnZAJ+WGeClHgANnSJberTNoFWWjrWKBuXQ==
@@ -5503,7 +5503,7 @@ tslib@2.3.0:
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.3.0.tgz#803b8cdab3e12ba581a4ca41c8839bbb0dacb09e"
   integrity sha512-N82ooyxVNm6h1riLCoyS9e3fuJ3AMG2zIZs2Gd1ATcSFjSA23Q0fzjjZeh0jbJvWVDZ0cJT8yaNNaaXHzueNjg==
 
-tslib@2.3.1, tslib@^2.0.0:
+tslib@2.3.1, tslib@^2.3.1:
   version "2.3.1"
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.3.1.tgz#e8a335add5ceae51aa261d32a490158ef042ef01"
   integrity sha512-77EbyPPpMz+FRFRuAFlWMtmgUWGe9UOG2Z25NqCwiIjRhOf5iKGuzSe5P2w1laq+FkRy4p+PCuVkJSGkzTEKVw==
