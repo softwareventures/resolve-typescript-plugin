@@ -14,6 +14,7 @@
   "bugs": "https://github.com/softwareventures/resolve-typescript-plugin/issues",
   "repository": "github:softwareventures/resolve-typescript-plugin",
   "license": "ISC",
+  "sideEffects": false,
   "exports": {
     ".": "./index.js"
   },
