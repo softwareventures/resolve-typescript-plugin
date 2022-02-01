@@ -23,12 +23,12 @@ async function yarn(path: string, args: readonly string[]): Promise<number> {
     });
 }
 
-test("type-module-config-cjs-import-js", async t => {
+test.serial("type-module-config-cjs-import-js", async t => {
     await buildTestProject("test-projects/type-module-config-cjs-import-js");
     t.pass();
 });
 
-test("backward-compatibility-pre-1.1.2-config-cjs", async t => {
+test.serial("backward-compatibility-pre-1.1.2-config-cjs", async t => {
     await buildTestProject("test-projects/backward-compatibility-pre-1.1.2-config-cjs");
     t.pass();
 });
