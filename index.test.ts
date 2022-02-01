@@ -14,11 +14,13 @@ async function buildTestProject(path: string): Promise<void> {
 
 async function yarn(path: string, args: readonly string[]): Promise<number> {
     const fullPath = resolve(__dirname, path);
-    return new Promise((resolve, reject) =>
+    return new Promise((resolve, reject) => {
         fork(require.resolve("yarn/bin/yarn.js"), args, {cwd: fullPath})
             .on("error", reject)
-            .on("exit", (code, signal) => (code == null ? reject(signal) : resolve(code)))
-    );
+            .on("exit", (code, signal) =>
+                code == null ? void reject(signal) : void resolve(code)
+            );
+    });
 }
 
 test("type-module-config-cjs-import-js", async t => {

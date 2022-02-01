@@ -1,4 +1,4 @@
-import {ResolveOptions} from "webpack";
+import type {ResolveOptions} from "webpack";
 
 type Resolver = NonNullable<ResolveOptions["resolver"]>;
 
@@ -13,11 +13,11 @@ class ResolveTypescriptPlugin {
      * Will be removed in v2.0. */
     public static default = ResolveTypescriptPlugin;
 
-    private static defaultOptions: ResolveTypescriptPluginOptions = {
+    private static readonly defaultOptions: ResolveTypescriptPluginOptions = {
         includeNodeModules: false
     };
 
-    private options: ResolveTypescriptPluginOptions;
+    private readonly options: ResolveTypescriptPluginOptions;
 
     public constructor(options: ResolveTypescriptPluginOptions = {}) {
         this.options = {...ResolveTypescriptPlugin.defaultOptions, ...options};
@@ -30,14 +30,15 @@ class ResolveTypescriptPlugin {
                 .getHook("raw-file")
                 .tapAsync(pluginName, (request, resolveContext, callback) => {
                     if (
-                        !request.path ||
-                        (!this.options.includeNodeModules &&
-                            request.path.match(/(^|[\\/])node_modules($|[\\/])/))
+                        typeof request.path !== "string" ||
+                        (!(this.options.includeNodeModules ?? false) &&
+                            request.path.match(/(^|[\\/])node_modules($|[\\/])/u) != null)
                     ) {
-                        return callback();
+                        callback();
+                        return;
                     }
 
-                    const path = request.path.replace(/\.jsx?$/, extension);
+                    const path = request.path.replace(/\.jsx?$/u, extension);
                     if (path === request.path) {
                         callback();
                     } else {
@@ -46,9 +47,7 @@ class ResolveTypescriptPlugin {
                             {
                                 ...request,
                                 path,
-                                relativePath:
-                                    request.relativePath &&
-                                    request.relativePath.replace(/\.jsx?$/, extension)
+                                relativePath: request.relativePath?.replace(/\.jsx?$/u, extension)
                             },
                             `using path: ${path}`,
                             resolveContext,
