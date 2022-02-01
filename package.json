@@ -14,11 +14,6 @@
   "bugs": "https://github.com/softwareventures/resolve-typescript-plugin/issues",
   "repository": "github:softwareventures/resolve-typescript-plugin",
   "license": "ISC",
-  "sideEffects": false,
-  "exports": {
-    ".": "./index.js"
-  },
-  "types": "index.d.ts",
   "scripts": {
     "fix": "tsc --noEmit && eslint . --fix && prettier --write .",
     "lint": "tsc --noEmit && eslint . && prettier --check .",
@@ -26,6 +21,11 @@
     "semantic-release": "semantic-release",
     "test": "ava"
   },
+  "sideEffects": false,
+  "exports": {
+    ".": "./index.js"
+  },
+  "types": "index.d.ts",
   "engines": {
     "node": "^12 || ^14 || >=16"
   },
