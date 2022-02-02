@@ -494,10 +494,10 @@
     eslint-plugin-sonarjs "^0.10.0 || ^0.11.0"
     tslib "^2.3.1"
 
-"@softwareventures/prettier-config@2.0.1":
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/@softwareventures/prettier-config/-/prettier-config-2.0.1.tgz#8c8c9413340a68a7c4355c3096ed6800190bbe08"
-  integrity sha512-8XajV6HlM/oVqmVGp6b3S92BM3O5XyPA4rZJBDuRFvntblc7H1AKMPT1W3V6tS9HYGDpL1SGdDsgxdDvPZK00g==
+"@softwareventures/prettier-config@3.0.0":
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/@softwareventures/prettier-config/-/prettier-config-3.0.0.tgz#e57ff64b9378486bc9b42437b34b3dcaf47319d9"
+  integrity sha512-YDom5xLPdsqKY5+Rcsv4S5reFvENt/z09aZopRdIzaqKBnL1uWXE3atbk27rVXTeekWgtauWCtgTJLiAJoLK8g==
   dependencies:
     tslib "2.3.1"
 
