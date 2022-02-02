@@ -494,12 +494,12 @@
     eslint-plugin-sonarjs "^0.10.0 || ^0.11.0"
     tslib "^2.3.1"
 
-"@softwareventures/prettier-config@2.0.0":
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/@softwareventures/prettier-config/-/prettier-config-2.0.0.tgz#e0a4740728129ce66bd2a7b8eb2cc9326d841ef3"
-  integrity sha512-MxSPKUgoozAttEGLmD5wuk55CtG4gYf8QPpiil5xz8lE6yQj4fKRgOT9Cmisn6P8DG3JPq9yGo5jD/XTmwV0rw==
+"@softwareventures/prettier-config@2.0.1":
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/@softwareventures/prettier-config/-/prettier-config-2.0.1.tgz#8c8c9413340a68a7c4355c3096ed6800190bbe08"
+  integrity sha512-8XajV6HlM/oVqmVGp6b3S92BM3O5XyPA4rZJBDuRFvntblc7H1AKMPT1W3V6tS9HYGDpL1SGdDsgxdDvPZK00g==
   dependencies:
-    tslib "1.14.1"
+    tslib "2.3.1"
 
 "@softwareventures/semantic-release-config@2.0.0":
   version "2.0.0"
@@ -5493,11 +5493,6 @@ tsconfig-paths@^3.12.0:
     minimist "^1.2.0"
     strip-bom "^3.0.0"
 
-tslib@1.14.1, tslib@^1.8.1, tslib@^1.9.0:
-  version "1.14.1"
-  resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.14.1.tgz#cf2d38bdc34a134bcaf1091c41f6619e2f672d00"
-  integrity sha512-Xni35NKzjgMrwevysHTCArtLDpPvye8zV/0E4EyYn43P7/7qvQwPh9BGkHewbMulVntbigmcT7rdX3BNo9wRJg==
-
 tslib@2.3.0:
   version "2.3.0"
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.3.0.tgz#803b8cdab3e12ba581a4ca41c8839bbb0dacb09e"
@@ -5507,6 +5502,11 @@ tslib@2.3.1, tslib@^2.3.1:
   version "2.3.1"
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.3.1.tgz#e8a335add5ceae51aa261d32a490158ef042ef01"
   integrity sha512-77EbyPPpMz+FRFRuAFlWMtmgUWGe9UOG2Z25NqCwiIjRhOf5iKGuzSe5P2w1laq+FkRy4p+PCuVkJSGkzTEKVw==
+
+tslib@^1.8.1, tslib@^1.9.0:
+  version "1.14.1"
+  resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.14.1.tgz#cf2d38bdc34a134bcaf1091c41f6619e2f672d00"
+  integrity sha512-Xni35NKzjgMrwevysHTCArtLDpPvye8zV/0E4EyYn43P7/7qvQwPh9BGkHewbMulVntbigmcT7rdX3BNo9wRJg==
 
 tsutils@^3.21.0:
   version "3.21.0"
