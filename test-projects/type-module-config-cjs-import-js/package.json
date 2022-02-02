@@ -13,7 +13,7 @@
     "tslib": "2.3.1"
   },
   "devDependencies": {
-    "@softwareventures/tsconfig": "5.1.0",
+    "@softwareventures/tsconfig": "5.1.1",
     "resolve-typescript-plugin": "../..",
     "ts-loader": "9.2.6",
     "typescript": "4.5.5",

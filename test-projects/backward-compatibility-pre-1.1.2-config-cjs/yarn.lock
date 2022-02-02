@@ -7,10 +7,10 @@
   resolved "https://registry.yarnpkg.com/@discoveryjs/json-ext/-/json-ext-0.5.6.tgz#d5e0706cf8c6acd8c6032f8d54070af261bbbb2f"
   integrity sha512-ws57AidsDvREKrZKYffXddNkyaF14iHNHm8VQnZH6t99E8gczjNN0GpvcGny0imC80yQ0tHz1xVUKk/KFQSUyA==
 
-"@softwareventures/tsconfig@5.1.0":
-  version "5.1.0"
-  resolved "https://registry.yarnpkg.com/@softwareventures/tsconfig/-/tsconfig-5.1.0.tgz#bee139d5e6fccf5237fa7dbcdbf8ac7d12ac33d0"
-  integrity sha512-D85kPab/iU9SKQRPi76eBnLa060kJEvI+M6PLzdfuq1nS+G7020NORHf5Lr6boLzxVe/PXNywTSUzbkslDkSrg==
+"@softwareventures/tsconfig@5.1.1":
+  version "5.1.1"
+  resolved "https://registry.yarnpkg.com/@softwareventures/tsconfig/-/tsconfig-5.1.1.tgz#fab74f3f1b0cd4af67aaadda6c0851a409794804"
+  integrity sha512-x+KfhmPsBSLO1233SFQ5E5NaUgCo8rsbE5vkT9xrPQL3D6W+cvMGdiZoznDu9Hh3ZZJ9g7x0pdOOuaF/s8vwcQ==
 
 "@types/eslint-scope@^3.7.0":
   version "3.7.3"
