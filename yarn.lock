@@ -480,10 +480,10 @@
     lodash "^4.17.4"
     read-pkg-up "^7.0.0"
 
-"@softwareventures/eslint-config@5.0.1":
-  version "5.0.1"
-  resolved "https://registry.yarnpkg.com/@softwareventures/eslint-config/-/eslint-config-5.0.1.tgz#b981a60ef6a3f5718d30e3c3c2e80122dd262057"
-  integrity sha512-aMaCmi8MkbvtXAMXS/crLtVtypDO7NCfiMheRwrGc9RscGsFpuLpLXjzwGK7XrJuZnFQVmZNOSGLBNAAciLSQQ==
+"@softwareventures/eslint-config@5.1.0":
+  version "5.1.0"
+  resolved "https://registry.yarnpkg.com/@softwareventures/eslint-config/-/eslint-config-5.1.0.tgz#048e7651c0a25b6b8757eca65b84ef42cf72738e"
+  integrity sha512-82Z4Zc5yoYYA3cpIBlY2Wz9ImpilMfYF5d8HrrrYfxsiYj+KzZtjRKrYzC3KrKjxMA/vDPz62YOMZ4+WDQZlSQ==
   dependencies:
     "@typescript-eslint/eslint-plugin" "^5.3.0 || ^5.0.0"
     "@typescript-eslint/parser" "^5.3.0 || ^5.0.0"
