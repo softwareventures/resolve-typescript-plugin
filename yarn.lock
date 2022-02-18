@@ -490,10 +490,10 @@
     lodash "^4.17.4"
     read-pkg-up "^7.0.0"
 
-"@softwareventures/eslint-config@5.1.0":
-  version "5.1.0"
-  resolved "https://registry.yarnpkg.com/@softwareventures/eslint-config/-/eslint-config-5.1.0.tgz#048e7651c0a25b6b8757eca65b84ef42cf72738e"
-  integrity sha512-82Z4Zc5yoYYA3cpIBlY2Wz9ImpilMfYF5d8HrrrYfxsiYj+KzZtjRKrYzC3KrKjxMA/vDPz62YOMZ4+WDQZlSQ==
+"@softwareventures/eslint-config@5.1.1":
+  version "5.1.1"
+  resolved "https://registry.yarnpkg.com/@softwareventures/eslint-config/-/eslint-config-5.1.1.tgz#041011aebda2e74432c323beabec987c572b7452"
+  integrity sha512-oU/nk/wcmiSzcFEHgo0b9523GfQ2qIA2RXC/ZQd8MIRf/Ahyx+MdelFMlJM9a4YQpL2Y6261PulcG6hUilzE8A==
   dependencies:
     "@typescript-eslint/eslint-plugin" "^5.3.0 || ^5.0.0"
     "@typescript-eslint/parser" "^5.3.0 || ^5.0.0"
@@ -501,7 +501,7 @@
     eslint-plugin-import "^2.25.2"
     eslint-plugin-jsdoc "^37.0.3"
     eslint-plugin-prefer-arrow "^1.2.3"
-    eslint-plugin-sonarjs "^0.10.0 || ^0.11.0"
+    eslint-plugin-sonarjs "^0.10.0 || ^0.11.0 || ^0.12.0"
     tslib "^2.3.1"
 
 "@softwareventures/prettier-config@3.0.0":
@@ -2048,10 +2048,10 @@ eslint-plugin-prefer-arrow@^1.2.3:
   resolved "https://registry.yarnpkg.com/eslint-plugin-prefer-arrow/-/eslint-plugin-prefer-arrow-1.2.3.tgz#e7fbb3fa4cd84ff1015b9c51ad86550e55041041"
   integrity sha512-J9I5PKCOJretVuiZRGvPQxCbllxGAV/viI20JO3LYblAodofBxyMnZAJ+WGeClHgANnSJberTNoFWWjrWKBuXQ==
 
-"eslint-plugin-sonarjs@^0.10.0 || ^0.11.0":
-  version "0.11.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-sonarjs/-/eslint-plugin-sonarjs-0.11.0.tgz#46d18bc4066c66e490de057253b9cc97bde9f176"
-  integrity sha512-ei/WuZiL0wP+qx2KrxKyZs3+eDbxiGAhFSm3GKCOOAUkg+G2ny6TSXDB2j67tvyqHefi+eoQsAgGQvz+nEtIBw==
+"eslint-plugin-sonarjs@^0.10.0 || ^0.11.0 || ^0.12.0":
+  version "0.12.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-sonarjs/-/eslint-plugin-sonarjs-0.12.0.tgz#03a160a58f179fde084135baec08656b59786b8c"
+  integrity sha512-soxjK67hoYxO8hesKqXWN50GSM+oG2r35N5WnAMehetahO6zoVpv3HZbdziP0jYWNopEe6te/BFUZOYAZI+qhg==
 
 eslint-scope@5.1.1, eslint-scope@^5.1.1:
   version "5.1.1"
