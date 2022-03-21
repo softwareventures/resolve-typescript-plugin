@@ -19,7 +19,7 @@ jobs:
       - name: git checkout
         uses: actions/checkout@v3
       - name: Cache yarn dependencies
-        uses: actions/cache@v2
+        uses: actions/cache@v3
         with:
           path: ${{steps.find-yarn-cache.outputs.dir}}
           key: v3-${{runner.os}}-node${{matrix.node-version}}-yarn-${{hashFiles('**/yarn.lock')}}
@@ -42,7 +42,7 @@ jobs:
       - name: git checkout
         uses: actions/checkout@v3
       - name: Cache yarn dependencies
-        uses: actions/cache@v2
+        uses: actions/cache@v3
         with:
           path: ${{steps.find-yarn-cache.outputs.dir}}
           key: v3-${{runner.os}}-node${{env.DEPLOY_NODE_VERSION}}-yarn-${{hashFiles('**/yarn.lock')}}
