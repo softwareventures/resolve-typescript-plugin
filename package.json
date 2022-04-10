@@ -41,7 +41,7 @@
     "@softwareventures/semantic-release-config": "2.0.2",
     "@softwareventures/tsconfig": "5.1.1",
     "@types/node": "16.11.26",
-    "ava": "4.1.0",
+    "ava": "4.2.0",
     "cz-conventional-changelog": "3.3.0",
     "eslint": "8.13.0",
     "prettier": "2.6.2",
