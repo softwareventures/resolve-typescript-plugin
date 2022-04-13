@@ -1,3 +1,5 @@
+"use strict";
+
 const ResolveTypeScriptPlugin = require("resolve-typescript-plugin");
 
 module.exports = {
@@ -7,7 +9,7 @@ module.exports = {
     module: {
         rules: [
             {
-                test: /\.tsx?$/,
+                test: /\.tsx?$/u,
                 use: "ts-loader"
             }
         ]
