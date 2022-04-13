@@ -1,4 +1,5 @@
 {
+  "private": true,
   "name": "@softwareventures/resolve-typescript-plugin-test-backward-compatibility-1.1.x-config-cjs",
   "type": "module",
   "license": "ISC",

@@ -1,4 +1,5 @@
 {
+  "private": true,
   "name": "@softwareventures/resolve-typescript-plugin-test-type-module-config-cjs-import-js",
   "type": "module",
   "license": "ISC",
