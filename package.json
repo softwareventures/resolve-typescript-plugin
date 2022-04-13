@@ -36,7 +36,7 @@
     "webpack": "^4.0.0 || ^5.0.0"
   },
   "devDependencies": {
-    "@softwareventures/eslint-config": "5.1.1",
+    "@softwareventures/eslint-config": "5.1.5",
     "@softwareventures/prettier-config": "3.0.0",
     "@softwareventures/semantic-release-config": "2.0.2",
     "@softwareventures/tsconfig": "6.0.0",
