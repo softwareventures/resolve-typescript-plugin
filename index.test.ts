@@ -28,6 +28,11 @@ test.serial("type-module-config-cjs-import-js", async t => {
     t.pass();
 });
 
+test.serial("type-module-config-js-import-js", async t => {
+    await buildTestProject("test-projects/type-module-config-js-import-js");
+    t.pass();
+});
+
 test.serial("backward-compatibility-pre-1.1.2-config-cjs", async t => {
     await buildTestProject("test-projects/backward-compatibility-pre-1.1.2-config-cjs");
     t.pass();
