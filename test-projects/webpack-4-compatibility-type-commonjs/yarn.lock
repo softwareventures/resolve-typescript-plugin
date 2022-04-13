@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@softwareventures/tsconfig@5.1.0":
-  version "5.1.0"
-  resolved "https://registry.yarnpkg.com/@softwareventures/tsconfig/-/tsconfig-5.1.0.tgz#bee139d5e6fccf5237fa7dbcdbf8ac7d12ac33d0"
-  integrity sha512-D85kPab/iU9SKQRPi76eBnLa060kJEvI+M6PLzdfuq1nS+G7020NORHf5Lr6boLzxVe/PXNywTSUzbkslDkSrg==
+"@softwareventures/tsconfig@6.0.0":
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/@softwareventures/tsconfig/-/tsconfig-6.0.0.tgz#af2409b589ff2171fda173a2685b34eedc9cdeeb"
+  integrity sha512-ZPZgEZqbnZ1ZRlj0oZEaXdyQD8us4AADYVaYFwNgGKbHe2O/u9M4IEpqzvgC6QER1S3DSH0XSXS6WODyJhyvlg==
 
 "@webassemblyjs/ast@1.9.0":
   version "1.9.0"
