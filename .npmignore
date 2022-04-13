@@ -9,6 +9,7 @@
 *.ts
 !*.d.ts
 /fix-types-for-back-compat.js
+/test-projects
 
 # yarn and npm
 package-lock.json
