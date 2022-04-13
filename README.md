@@ -103,6 +103,44 @@ subdirectories. To enable this, set `includeNodeModules: true`.
 
 Default: `false`.
 
+## Webpack 4 Compatibility
+
+This plugin supports webpack versions 4.x and 5.x. However, there are some
+caveats when using webpack 4.x in conjunction with ES modules.
+
+Webpack 4.x does not support `webpack.config` files in ES module format, so if
+you set `"type": "module"` in `package.json` then you must mark the
+`webpack.config` file as a CommonJS file by naming it `webpack.config.cjs`
+(with a `.cjs` extension). Of course, you must also use CommonJS format, for
+example:
+
+```js
+const ResolveTypeScriptPlugin = require("resolve-typescript-plugin");
+
+module.exports = {
+    module: {
+        rules: [
+            {
+                test: /\.tsx?$/,
+                use: "ts-loader"
+            }
+        ]
+    },
+    resolve: {
+        plugins: [new ResolveTypeScriptPlugin()]
+    }
+};
+```
+
+Webpack 4.x also will not discover the `webpack.config` file automatically if
+it is named with a `.cjs` extension, so you must specify the path to the
+configuration file explicitly when running webpack, for example:
+`webpack --config ./webpack.config.cjs`.
+
+Webpack 5.x has none of these caveats. In Webpack 5.x, configuration files may
+be in ES Module or CommonJS format, and will be discovered automatically if
+they are named with any of `.js`, `.cjs`, or `.mjs` file extensions.
+
 ## Feedback
 
 We're seeking [community feedback][5] on this plugin.
