@@ -1,3 +1,4 @@
 {
-  "extends": ["@softwareventures:lib"]
+  "extends": ["@softwareventures:lib"],
+  "ignorePaths": ["test-projects/**"]
 }
