@@ -32,3 +32,13 @@ test.serial("backward-compatibility-pre-1.1.2-config-cjs", async t => {
     await buildTestProject("test-projects/backward-compatibility-pre-1.1.2-config-cjs");
     t.pass();
 });
+
+test.serial("webpack-4-compatibility-type-module", async t => {
+    await buildTestProject("test-projects/webpack-4-compatibility-type-module");
+    t.pass();
+});
+
+test.serial("webpack-4-compatibility-type-commonjs", async t => {
+    await buildTestProject("test-projects/webpack-4-compatibility-type-commonjs");
+    t.pass();
+});

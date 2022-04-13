@@ -11,6 +11,7 @@ npm-debug.log*
 *.js.map
 !/types/*.d.ts
 !/fix-types-for-back-compat.js
+!/test-projects/**/webpack.config.js
 
 # macOS
 .DS_Store

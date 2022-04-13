@@ -33,7 +33,7 @@
     "tslib": "2.3.1"
   },
   "peerDependencies": {
-    "webpack": "^5.0.0"
+    "webpack": "^4.0.0 || ^5.0.0"
   },
   "devDependencies": {
     "@softwareventures/eslint-config": "5.1.1",
@@ -68,7 +68,7 @@
     "require": [
       "ts-node/register/files"
     ],
-    "timeout": "10m"
+    "timeout": "20m"
   },
   "release": {
     "extends": "@softwareventures/semantic-release-config"
