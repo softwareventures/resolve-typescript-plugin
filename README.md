@@ -59,9 +59,9 @@ Module:
 Include something like the following in `webpack.config.js`:
 
 ```js
-const ResolveTypeScriptPlugin = require("resolve-typescript-plugin");
+import ResolveTypeScriptPlugin from "resolve-typescript-plugin";
 
-module.exports = {
+export default {
     module: {
         rules: [
             {
