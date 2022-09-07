@@ -40,7 +40,7 @@
     "@softwareventures/prettier-config": "3.0.0",
     "@softwareventures/semantic-release-config": "2.0.2",
     "@softwareventures/tsconfig": "6.0.0",
-    "@types/node": "16.11.57",
+    "@types/node": "16.11.58",
     "ava": "4.3.3",
     "cz-conventional-changelog": "3.3.0",
     "eslint": "8.23.0",
