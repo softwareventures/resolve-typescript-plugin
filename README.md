@@ -3,6 +3,27 @@
 A webpack plugin to resolve TypeScript files imported using the `.js` extension
 when using ESM imports.
 
+## Obsolete
+
+webpack has equivalent functionality built-in since v5.74.0. This plugin is no
+longer needed unless you are using an older version of webpack.
+
+To migrate from this plugin, set `resolve.extensionAlias` in
+`webpack.config.js`:
+
+```js
+export default {
+    resolve: {
+        extensionAlias: {
+            ".js": [".ts", ".js"],
+            ".mjs": [".mts", ".mjs"]
+        }
+    }
+};
+```
+
+and remove `new ResolveTypeScriptPlugin()` from `resolve.plugins`.
+
 ## Why?
 
 If you are using webpack in conjunction with TypeScript and ES Modules, you need
