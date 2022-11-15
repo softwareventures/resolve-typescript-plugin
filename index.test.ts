@@ -2,6 +2,10 @@ import {fork} from "child_process";
 import {resolve} from "path";
 import test from "ava";
 
+test.before(async () => {
+    await yarn(".", ["prepare"]);
+})
+
 async function buildTestProject(path: string): Promise<void> {
     return yarn(path, [])
         .then(code => (code === 0 ? yarn(path, ["build"]) : code))
