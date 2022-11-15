@@ -40,8 +40,6 @@ test.serial("backward-compatibility-pre-1.1.2-config-cjs", async t => {
 
 const nodeMajorVersion = parseInt(process.versions.node.split(".")[0] ?? "", 10);
 
-test("nodeVersion", t => t.is(nodeMajorVersion, 16));
-
 const testSerialIfNodeLessThan17 = nodeMajorVersion < 17 ? test.serial : test.serial.skip;
 
 testSerialIfNodeLessThan17("webpack-4-compatibility-type-module", async t => {
