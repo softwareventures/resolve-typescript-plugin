@@ -705,9 +705,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@softwareventures/eslint-config@npm:7.0.0":
-  version: 7.0.0
-  resolution: "@softwareventures/eslint-config@npm:7.0.0"
+"@softwareventures/eslint-config@npm:7.0.1":
+  version: 7.0.1
+  resolution: "@softwareventures/eslint-config@npm:7.0.1"
   dependencies:
     tslib: ^2.3.1
   peerDependencies:
@@ -720,7 +720,7 @@ __metadata:
     eslint-plugin-prefer-arrow: ^1.2.3
     eslint-plugin-sonarjs: ^0.10.0 || ^0.11.0 || ^0.12.0 || ^0.13.0 || ^0.14.0 || ^0.15.0
     typescript: ^3.8.3 || ^4.0.0
-  checksum: 3904777fddd24c0367f72734f60c52390c5cf53a95a6cca1398aa2a0841edf4680db64cf848655e1f9bbac8eb8bd66d027bad498eee6990dfffad556034d768e
+  checksum: 0605c713304c376126d2d8bf2ee387be1a560ce56a3755f9202d7228c56a59eb44a9a587b39aef1edee59901cb97767f7ac8a979aaf0617f2d86c020a58e2d6e
   languageName: node
   linkType: hard
 
@@ -6410,7 +6410,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "resolve-typescript-plugin@workspace:."
   dependencies:
-    "@softwareventures/eslint-config": 7.0.0
+    "@softwareventures/eslint-config": 7.0.1
     "@softwareventures/prettier-config": 3.0.0
     "@softwareventures/semantic-release-config": 2.0.2
     "@softwareventures/tsconfig": 7.0.0
