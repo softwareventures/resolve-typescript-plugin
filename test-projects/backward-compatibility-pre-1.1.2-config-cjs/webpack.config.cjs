@@ -1,6 +1,6 @@
 "use strict";
 
-const ResolveTypeScriptPlugin = require("resolve-typescript-plugin").default;
+const ResolveTypeScriptPlugin = require("../..").default;
 
 module.exports = {
     mode: "production",

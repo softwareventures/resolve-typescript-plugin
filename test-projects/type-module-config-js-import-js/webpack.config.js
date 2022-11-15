@@ -1,6 +1,6 @@
 import {fileURLToPath} from "url";
 import {dirname} from "path";
-import ResolveTypeScriptPlugin from "resolve-typescript-plugin";
+import ResolveTypeScriptPlugin from "../../index.js";
 
 export default {
     mode: "production",
