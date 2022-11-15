@@ -19,7 +19,7 @@ export default {
             ".mjs": [".mts", ".mjs"]
         }
     }
-}
+};
 ```
 
 and remove `new ResolveTypeScriptPlugin()` from `resolve.plugins`.
