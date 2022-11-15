@@ -4,7 +4,7 @@ import test from "ava";
 
 test.before(async () => {
     await yarn(".", ["prepare"]);
-})
+});
 
 async function buildTestProject(path: string): Promise<void> {
     return yarn(path, [])
