@@ -38,7 +38,7 @@
   "devDependencies": {
     "@softwareventures/eslint-config": "7.0.1",
     "@softwareventures/prettier-config": "3.0.0",
-    "@softwareventures/semantic-release-config": "2.0.2",
+    "@softwareventures/semantic-release-config": "2.0.3",
     "@softwareventures/tsconfig": "7.0.0",
     "@types/node": "16.11.58",
     "@typescript-eslint/eslint-plugin": "5.38.0",
