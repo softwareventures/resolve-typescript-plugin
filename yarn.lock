@@ -715,12 +715,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@softwareventures/prettier-config@npm:3.0.0":
-  version: 3.0.0
-  resolution: "@softwareventures/prettier-config@npm:3.0.0"
+"@softwareventures/prettier-config@npm:4.0.0":
+  version: 4.0.0
+  resolution: "@softwareventures/prettier-config@npm:4.0.0"
   dependencies:
-    tslib: 2.3.1
-  checksum: 6ce1c6204aa374a3d243b6115306a5b095cadc51e426c921488b00d6b208490f59b9546b766c864dfc71eac48e52418cb081db4215c75d57c7f1fdfb740443d1
+    tslib: 2.4.0
+  checksum: 30e47a2b0f4ad69bc4e6a85e0df5da472b9ac72441540864ace323ac6c12138a9e2aca6abccbf46a0ac83956dbaa248b379fbe86780aea132d7e9b5da579e1d0
   languageName: node
   linkType: hard
 
@@ -6315,7 +6315,7 @@ __metadata:
   resolution: "resolve-typescript-plugin@workspace:."
   dependencies:
     "@softwareventures/eslint-config": 7.0.1
-    "@softwareventures/prettier-config": 3.0.0
+    "@softwareventures/prettier-config": 4.0.0
     "@softwareventures/semantic-release-config": 3.0.0
     "@softwareventures/tsconfig": 7.0.0
     "@types/node": 16.18.3
@@ -7213,13 +7213,6 @@ __metadata:
     minimist: ^1.2.6
     strip-bom: ^3.0.0
   checksum: 8afa01c673ebb4782ba53d3a12df97fa837ce524f8ad38ee4e2b2fd57f5ac79abc21c574e9e9eb014d93efe7fe8214001b96233b5c6ea75bd1ea82afe17a4c6d
-  languageName: node
-  linkType: hard
-
-"tslib@npm:2.3.1":
-  version: 2.3.1
-  resolution: "tslib@npm:2.3.1"
-  checksum: de17a98d4614481f7fcb5cd53ffc1aaf8654313be0291e1bfaee4b4bb31a20494b7d218ff2e15017883e8ea9626599b3b0e0229c18383ba9dce89da2adf15cb9
   languageName: node
   linkType: hard
 
