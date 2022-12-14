@@ -42,7 +42,7 @@
     "@softwareventures/tsconfig": "7.0.0",
     "@types/node": "16.18.9",
     "@typescript-eslint/eslint-plugin": "5.46.1",
-    "@typescript-eslint/parser": "5.43.0",
+    "@typescript-eslint/parser": "5.46.1",
     "ava": "5.1.0",
     "cz-conventional-changelog": "3.3.0",
     "eslint": "8.29.0",
@@ -60,7 +60,17 @@
   },
   "eslintConfig": {
     "root": true,
-    "extends": "@softwareventures"
+    "extends": "@softwareventures",
+    "overrides": [
+      {
+        "files": [
+          "test-projects/**/*.{,c,m}ts{,x}"
+        ],
+        "parserOptions": {
+          "project": "tsconfig.test.json"
+        }
+      }
+    ]
   },
   "prettier": "@softwareventures/prettier-config",
   "config": {
