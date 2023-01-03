@@ -46,7 +46,7 @@
     "ava": "5.1.0",
     "cz-conventional-changelog": "3.3.0",
     "eslint": "8.31.0",
-    "eslint-config-prettier": "8.5.0",
+    "eslint-config-prettier": "8.6.0",
     "eslint-plugin-import": "2.26.0",
     "eslint-plugin-jsdoc": "39.6.4",
     "eslint-plugin-prefer-arrow": "1.2.3",
