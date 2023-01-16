@@ -43,7 +43,7 @@
     "@types/node": "16.18.11",
     "@typescript-eslint/eslint-plugin": "5.48.1",
     "@typescript-eslint/parser": "5.48.1",
-    "ava": "5.1.0",
+    "ava": "5.1.1",
     "cz-conventional-changelog": "3.3.0",
     "eslint": "8.32.0",
     "eslint-config-prettier": "8.6.0",
