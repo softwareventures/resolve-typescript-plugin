@@ -7,6 +7,12 @@
 /renovate.json
 /.snyk
 /.husky
+/*.config.js
+/*.config.cjs
+/*.config.mjs
+/*.config.ts
+/*.config.cts
+/*.config.mts
 *.ts
 !*.d.ts
 /fix-types-for-back-compat.js
