@@ -6,6 +6,7 @@
 /.prettierignore
 /renovate.json
 /.snyk
+/.husky
 *.ts
 !*.d.ts
 /fix-types-for-back-compat.js
