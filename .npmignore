@@ -24,6 +24,7 @@ yarn.lock
 yarn-error.log
 npm-debug.log*
 /.yarn
+/.yarnrc.yml
 
 # macOS
 .DS_Store
