@@ -2940,9 +2940,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-jsdoc@npm:40.1.2":
-  version: 40.1.2
-  resolution: "eslint-plugin-jsdoc@npm:40.1.2"
+"eslint-plugin-jsdoc@npm:40.3.0":
+  version: 40.3.0
+  resolution: "eslint-plugin-jsdoc@npm:40.3.0"
   dependencies:
     "@es-joy/jsdoccomment": ~0.37.0
     comment-parser: 1.3.1
@@ -2953,7 +2953,7 @@ __metadata:
     spdx-expression-parse: ^3.0.1
   peerDependencies:
     eslint: ^7.0.0 || ^8.0.0
-  checksum: be5b35b82cf06933f9cba2b44b8dc578e84bcc6c251c33bc21524f21301d6d58aa17d6afce75880d58b61fef19030a2cb1a59c3084ecd851fa3143fd96667037
+  checksum: 7671ac3cc7165cd894cc2fc4c67ddf075f01502c25bbdc649559e7dfd6a525126debe756c83e11887972ffbe57d0d10d3bb17c7269594823654f55be3a3ca5ef
   languageName: node
   linkType: hard
 
@@ -6527,7 +6527,7 @@ __metadata:
     eslint: 8.38.0
     eslint-config-prettier: 8.8.0
     eslint-plugin-import: 2.27.5
-    eslint-plugin-jsdoc: 40.1.2
+    eslint-plugin-jsdoc: 40.3.0
     eslint-plugin-prefer-arrow: 1.2.3
     eslint-plugin-sonarjs: 0.19.0
     prettier: 2.8.7
