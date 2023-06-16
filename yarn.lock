@@ -1581,9 +1581,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ava@npm:5.3.0":
-  version: 5.3.0
-  resolution: "ava@npm:5.3.0"
+"ava@npm:5.3.1":
+  version: 5.3.1
+  resolution: "ava@npm:5.3.1"
   dependencies:
     acorn: ^8.8.2
     acorn-walk: ^8.2.0
@@ -1635,7 +1635,7 @@ __metadata:
       optional: true
   bin:
     ava: entrypoints/cli.mjs
-  checksum: 2e4177148a629dcf9b9a799b2f90a3e586864fa6f9cb80fcd68446d33978bcd4ab3054110472d9d1e1d556c91ff1381dc9803ad042e71609ac09109dc579638f
+  checksum: 126a5932baef74eccd8bec992bd522e25c05b6ee4985dde87c20cece76c2377f0bf9448f242f3f9cd2abbf7a5ac932fe4e4abde2a23792d6271a6088e5a1984e
   languageName: node
   linkType: hard
 
@@ -6509,7 +6509,7 @@ __metadata:
     "@types/node": 16.18.36
     "@typescript-eslint/eslint-plugin": 5.53.0
     "@typescript-eslint/parser": 5.53.0
-    ava: 5.3.0
+    ava: 5.3.1
     cz-conventional-changelog: 3.3.0
     eslint: 8.42.0
     eslint-config-prettier: 8.8.0
