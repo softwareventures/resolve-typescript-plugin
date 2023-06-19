@@ -24,6 +24,9 @@ export default {
 
 and remove `new ResolveTypeScriptPlugin()` from `resolve.plugins`.
 
+For the time being this plugin is still maintained for the benefit of people who
+use older versions of webpack.
+
 ## Why?
 
 If you are using webpack in conjunction with TypeScript and ES Modules, you need
