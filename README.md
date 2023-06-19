@@ -163,14 +163,11 @@ are named with any of `.js`, `.cjs`, or `.mjs` file extensions.
 
 ## Feedback
 
-We're seeking [community feedback][5] on this plugin.
-
 Please report bugs, problems, and missing features on the [GitHub Issue
-Tracker][6].
+Tracker][5].
 
 [1]: https://github.com/microsoft/TypeScript/issues/16577#issuecomment-703190339
 [2]: https://webpack.js.org/configuration/resolve/#resolveextensions
 [3]: https://github.com/TypeStrong/ts-loader/issues/1110
 [4]: https://www.npmjs.com/package/ts-loader
-[5]: https://github.com/softwareventures/resolve-typescript-plugin/issues/5
-[6]: https://github.com/softwareventures/resolve-typescript-plugin/issues
+[5]: https://github.com/softwareventures/resolve-typescript-plugin/issues
