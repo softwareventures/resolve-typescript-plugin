@@ -6710,7 +6710,7 @@ __metadata:
     eslint-plugin-prefer-arrow: 1.2.3
     eslint-plugin-sonarjs: 0.21.0
     prettier: 2.8.8
-    semantic-release: 21.0.9
+    semantic-release: 21.1.0
     ts-node: 10.9.1
     tslib: 2.6.2
     typescript: 5.1.6
@@ -6862,9 +6862,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"semantic-release@npm:21.0.9":
-  version: 21.0.9
-  resolution: "semantic-release@npm:21.0.9"
+"semantic-release@npm:21.1.0":
+  version: 21.1.0
+  resolution: "semantic-release@npm:21.1.0"
   dependencies:
     "@semantic-release/commit-analyzer": ^10.0.0
     "@semantic-release/error": ^4.0.0
@@ -6896,7 +6896,7 @@ __metadata:
     yargs: ^17.5.1
   bin:
     semantic-release: bin/semantic-release.js
-  checksum: 7da69393519da1ca6f14b29c38135f5fa48bd241da07eb0705da10a1707021a935960234ada8d0e7d49b8f63c00e1001cfb93683e0d8dbe89379d4857bcfc7ef
+  checksum: f232984072808bd6b3423f3e0dfc220484beba979688791c78a8dbfbb773230672e9cef0d3681592140d98c4e84b5060652fb86a0310f00a22ed949e968deb3f
   languageName: node
   linkType: hard
 
