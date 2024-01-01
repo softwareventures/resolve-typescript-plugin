@@ -6805,7 +6805,7 @@ __metadata:
     tslib: 2.6.2
     typescript: 5.1.6
     webpack: 5.83.1
-    yarn: 1.22.19
+    yarn: 1.22.21
   peerDependencies:
     webpack: ^4.0.0 || ^5.0.0
   languageName: unknown
@@ -8312,13 +8312,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"yarn@npm:1.22.19":
-  version: 1.22.19
-  resolution: "yarn@npm:1.22.19"
+"yarn@npm:1.22.21":
+  version: 1.22.21
+  resolution: "yarn@npm:1.22.21"
   bin:
     yarn: bin/yarn.js
     yarnpkg: bin/yarn.js
-  checksum: b43d2cc5fee7e933beb12a8aee7dfceca9e9ef2dd17c5d04d15a12ab7bec5f5744ea34a07b86e013da7f291a18c4e1ad8f70e150f5ed2f4666e6723c7f0a8452
+  checksum: 791fab07ad55351049361686bcdd25c64a46e2afe2f2fc7587e666aa4f758d7eef80235b921aa09415557ac580ab23305c0181c1b43fed45f357a0c7a77322a1
   languageName: node
   linkType: hard
 
