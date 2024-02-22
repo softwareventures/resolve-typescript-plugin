@@ -937,10 +937,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:16.18.70":
-  version: 16.18.70
-  resolution: "@types/node@npm:16.18.70"
-  checksum: 0c8a1ee93f6c0940629fbf6245ff22e0c7423b7c7c74c47e7171dc6342d279c2f931d50894c3d1b9a66238469b2b3d2d3c7fcf21eb3af6a03fc588f9ab6db849
+"@types/node@npm:16.18.83":
+  version: 16.18.83
+  resolution: "@types/node@npm:16.18.83"
+  checksum: 1874fc702ee1bfdd07f9b1d448283cac5aa6ff620fdd5b578145594f5bc841aabc75eb50fb1490f82accbd570718831814ec5249447881fed5c6da3c5439d864
   languageName: node
   linkType: hard
 
@@ -6781,7 +6781,7 @@ __metadata:
     "@softwareventures/prettier-config": 4.0.0
     "@softwareventures/semantic-release-config": 4.0.0
     "@softwareventures/tsconfig": 7.1.0
-    "@types/node": 16.18.70
+    "@types/node": 16.18.83
     "@typescript-eslint/eslint-plugin": 5.53.0
     "@typescript-eslint/parser": 5.53.0
     ava: 5.3.1
