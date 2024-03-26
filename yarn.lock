@@ -779,22 +779,22 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@softwareventures/eslint-config@npm:7.1.4":
-  version: 7.1.4
-  resolution: "@softwareventures/eslint-config@npm:7.1.4"
+"@softwareventures/eslint-config@npm:7.4.1":
+  version: 7.4.1
+  resolution: "@softwareventures/eslint-config@npm:7.4.1"
   dependencies:
     tslib: ^2.3.1
   peerDependencies:
-    "@typescript-eslint/eslint-plugin": ^5.3.0 || ^6.0.0
-    "@typescript-eslint/parser": ^5.3.0 || ^6.0.0
+    "@typescript-eslint/eslint-plugin": ^5.3.0 || ^6.0.0 || ^7.0.0
+    "@typescript-eslint/parser": ^5.3.0 || ^6.0.0 || ^7.0.0
     eslint: ^7.0.0 || ^8.0.0
     eslint-config-prettier: ^8.3.0 || ^9.0.0
     eslint-plugin-import: ^2.25.2
-    eslint-plugin-jsdoc: ^37.0.3 || ^38.0.0 || ^39.0.0 || ^40.0.0 || ^41.0.0 || ^42.0.0 || ^43.0.0 || ^44.0.0 || ^45.0.0 || ^46.0.0
+    eslint-plugin-jsdoc: ^37.0.3 || ^38.0.0 || ^39.0.0 || ^40.0.0 || ^41.0.0 || ^42.0.0 || ^43.0.0 || ^44.0.0 || ^45.0.0 || ^46.0.0 || ^47.0.0 || ^48.0.0
     eslint-plugin-prefer-arrow: ^1.2.3
-    eslint-plugin-sonarjs: ^0.10.0 || ^0.11.0 || ^0.12.0 || ^0.13.0 || ^0.14.0 || ^0.15.0 || ^0.16.0 || ^0.17.0 || ^0.18.0 || ^0.19.0 || ^0.20.0 || ^0.21.0 || ^0.22.0 || ^0.23.0
+    eslint-plugin-sonarjs: ^0.10.0 || ^0.11.0 || ^0.12.0 || ^0.13.0 || ^0.14.0 || ^0.15.0 || ^0.16.0 || ^0.17.0 || ^0.18.0 || ^0.19.0 || ^0.20.0 || ^0.21.0 || ^0.22.0 || ^0.23.0 || ^0.24.0
     typescript: ^3.8.3 || ^4.0.0 || ^5.0.0
-  checksum: c95bc7530defbd9273a23cac7166a40effe710e5a1d4e39b8fa741ea02ef281b64e4586d9360a5af1bef2ec89e1cb2a75e1f265131b7782704aff09dcb51e2dc
+  checksum: b734aa0a586ec546c470860276cfa4087c8fd2366db2ff9093f3c3bf80624c0c232270dc8e016d99a5f2d9ce7dc14b77f39a2fcd2d1629744750f72efff1f425
   languageName: node
   linkType: hard
 
@@ -6777,7 +6777,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "resolve-typescript-plugin@workspace:."
   dependencies:
-    "@softwareventures/eslint-config": 7.1.4
+    "@softwareventures/eslint-config": 7.4.1
     "@softwareventures/prettier-config": 4.0.0
     "@softwareventures/semantic-release-config": 4.0.0
     "@softwareventures/tsconfig": 7.1.0
