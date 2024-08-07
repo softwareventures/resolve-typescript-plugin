@@ -54,7 +54,7 @@
     "prettier": "2.8.8",
     "semantic-release": "21.1.2",
     "ts-node": "10.9.2",
-    "typescript": "5.5.2",
+    "typescript": "5.5.4",
     "webpack": "5.83.1",
     "yarn": "1.22.22"
   },
