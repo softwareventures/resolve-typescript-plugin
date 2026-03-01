@@ -814,15 +814,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@softwareventures/semantic-release-config@npm:4.1.0":
-  version: 4.1.0
-  resolution: "@softwareventures/semantic-release-config@npm:4.1.0"
+"@softwareventures/semantic-release-config@npm:5.1.1":
+  version: 5.1.1
+  resolution: "@softwareventures/semantic-release-config@npm:5.1.1"
   dependencies:
-    tslib: 2.6.2
+    tslib: 2.8.1
   peerDependencies:
     conventional-changelog-conventionalcommits: ^4.6.3 || ^5.0.0 || ^6.0.0 || ^7.0.0
+    pinst: ">= 2.1.6"
     semantic-release: ^17.0.7 || ^18.0.0 || ^19.0.0 || ^20.0.0 || ^21.0.0 || ^22.0.0 || ^23.0.0
-  checksum: 137a41cabe737dd2c80c4ec8a5795cd9299ad4efae900f9a93f415236ea8dc264c05b0e336b384e4d904c55bc016f37055260c145bc6e1079bfc318133977b06
+    semantic-release-pinst: ^1.0.0
+  checksum: 741ef4d41a87c4424bde3feca5bf663361f5f91d707a2a85f1a7bfb1ef16ee688a2be3c7f937989e1f8ba365c1bf40ad8df48ce6180a0d5de71fce9d3de5003e
   languageName: node
   linkType: hard
 
@@ -7068,7 +7070,7 @@ __metadata:
   dependencies:
     "@softwareventures/eslint-config": 7.10.0
     "@softwareventures/prettier-config": 4.0.0
-    "@softwareventures/semantic-release-config": 4.1.0
+    "@softwareventures/semantic-release-config": 5.1.1
     "@softwareventures/tsconfig": 7.3.0
     "@types/node": 16.18.106
     "@typescript-eslint/eslint-plugin": 5.53.0
@@ -8091,13 +8093,6 @@ __metadata:
   version: 2.4.0
   resolution: "tslib@npm:2.4.0"
   checksum: 8c4aa6a3c5a754bf76aefc38026134180c053b7bd2f81338cb5e5ebf96fefa0f417bff221592bf801077f5bf990562f6264fecbc42cd3309b33872cb6fc3b113
-  languageName: node
-  linkType: hard
-
-"tslib@npm:2.6.2":
-  version: 2.6.2
-  resolution: "tslib@npm:2.6.2"
-  checksum: 329ea56123005922f39642318e3d1f0f8265d1e7fcb92c633e0809521da75eeaca28d2cf96d7248229deb40e5c19adf408259f4b9640afd20d13aecc1430f3ad
   languageName: node
   linkType: hard
 
