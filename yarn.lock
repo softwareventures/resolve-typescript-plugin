@@ -786,22 +786,33 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@softwareventures/eslint-config@npm:7.10.0":
-  version: 7.10.0
-  resolution: "@softwareventures/eslint-config@npm:7.10.0"
+"@softwareventures/eslint-config@npm:10.0.0":
+  version: 10.0.0
+  resolution: "@softwareventures/eslint-config@npm:10.0.0"
   dependencies:
+    "@softwareventures/nullable": ^3.2.0
     tslib: ^2.3.1
   peerDependencies:
-    "@typescript-eslint/eslint-plugin": ^5.3.0 || ^6.0.0 || ^7.0.0
-    "@typescript-eslint/parser": ^5.3.0 || ^6.0.0 || ^7.0.0
-    eslint: ^7.0.0 || ^8.0.0
-    eslint-config-prettier: ^8.3.0 || ^9.0.0
+    "@eslint/js": ^9.39.4
+    "@typescript-eslint/eslint-plugin": ^8.56.1
+    "@typescript-eslint/parser": ^8.56.1
+    eslint: ^9.0.0
+    eslint-config-prettier: ^10.0.0
     eslint-plugin-import: ^2.25.2
-    eslint-plugin-jsdoc: ^37.0.3 || ^38.0.0 || ^39.0.0 || ^40.0.0 || ^41.0.0 || ^42.0.0 || ^43.0.0 || ^44.0.0 || ^45.0.0 || ^46.0.0 || ^47.0.0 || ^48.0.0 || ^49.0.0 || ^50.0.0
+    eslint-plugin-jsdoc: ^62.0.0
     eslint-plugin-prefer-arrow: ^1.2.3
-    eslint-plugin-sonarjs: ^0.10.0 || ^0.11.0 || ^0.12.0 || ^0.13.0 || ^0.14.0 || ^0.15.0 || ^0.16.0 || ^0.17.0 || ^0.18.0 || ^0.19.0 || ^0.20.0 || ^0.21.0 || ^0.22.0 || ^0.23.0 || ^0.24.0 || ^0.25.0 || ^1.0.0 || ^2.0.0 || ^3.0.0
-    typescript: ^3.8.3 || ^4.0.0 || ^5.0.0
-  checksum: f6348559f300692b68fc9016eb6f8f69ebaafd17afa07d74666b10565dc51df16cdf394c766c535eb9e072bc6ae4e3211fc5967317b64304106542f2f390adde
+    eslint-plugin-sonarjs: ^4.0.0
+    typescript: ^5.0.0
+  checksum: 9b5f2123398d678070446f9f25be8172af129cc4007a0e5effd8e8c8e779a3ab9343aede44eddfb582b59b737ffd6c5c8dbf033412c13d5fd214676b11078500
+  languageName: node
+  linkType: hard
+
+"@softwareventures/nullable@npm:^3.2.0":
+  version: 3.2.0
+  resolution: "@softwareventures/nullable@npm:3.2.0"
+  dependencies:
+    tslib: 2.6.2
+  checksum: b97f6400d15add88e64d2c8faf8dc864559bb47c0268a7f0eac9f45a8d32da32fe5199e5cb9cfec7f65d3c5fd983892f94c01e8b70a079aa14575b5716071892
   languageName: node
   linkType: hard
 
@@ -7066,7 +7077,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "resolve-typescript-plugin@workspace:."
   dependencies:
-    "@softwareventures/eslint-config": 7.10.0
+    "@softwareventures/eslint-config": 10.0.0
     "@softwareventures/prettier-config": 4.0.0
     "@softwareventures/semantic-release-config": 4.1.0
     "@softwareventures/tsconfig": 7.3.0
