@@ -814,15 +814,20 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@softwareventures/semantic-release-config@npm:4.1.0":
-  version: 4.1.0
-  resolution: "@softwareventures/semantic-release-config@npm:4.1.0"
+"@softwareventures/semantic-release-config@npm:9.0.0":
+  version: 9.0.0
+  resolution: "@softwareventures/semantic-release-config@npm:9.0.0"
   dependencies:
-    tslib: 2.6.2
+    tslib: 2.8.1
   peerDependencies:
-    conventional-changelog-conventionalcommits: ^4.6.3 || ^5.0.0 || ^6.0.0 || ^7.0.0
-    semantic-release: ^17.0.7 || ^18.0.0 || ^19.0.0 || ^20.0.0 || ^21.0.0 || ^22.0.0 || ^23.0.0
-  checksum: 137a41cabe737dd2c80c4ec8a5795cd9299ad4efae900f9a93f415236ea8dc264c05b0e336b384e4d904c55bc016f37055260c145bc6e1079bfc318133977b06
+    "@semantic-release/commit-analyzer": ^13.0.1
+    "@semantic-release/github": ^12.0.6
+    "@semantic-release/npm": ^13.1.5
+    "@semantic-release/release-notes-generator": ^14.1.0
+    conventional-changelog-conventionalcommits: ^9.0.0
+    semantic-release: ^25.0.0
+    semantic-release-pinst: ^1.1.0
+  checksum: a69269878912b22b696ce6af3ade17521a83c47f9f89b9c0eaac05f209755c6944a244435c1ce684044893991ac83c7a2408fbed3bb3fbca249d04f07ec3f037
   languageName: node
   linkType: hard
 
@@ -7068,7 +7073,7 @@ __metadata:
   dependencies:
     "@softwareventures/eslint-config": 7.10.0
     "@softwareventures/prettier-config": 4.0.0
-    "@softwareventures/semantic-release-config": 4.1.0
+    "@softwareventures/semantic-release-config": 9.0.0
     "@softwareventures/tsconfig": 7.3.0
     "@types/node": 16.18.106
     "@typescript-eslint/eslint-plugin": 5.53.0
@@ -8091,13 +8096,6 @@ __metadata:
   version: 2.4.0
   resolution: "tslib@npm:2.4.0"
   checksum: 8c4aa6a3c5a754bf76aefc38026134180c053b7bd2f81338cb5e5ebf96fefa0f417bff221592bf801077f5bf990562f6264fecbc42cd3309b33872cb6fc3b113
-  languageName: node
-  linkType: hard
-
-"tslib@npm:2.6.2":
-  version: 2.6.2
-  resolution: "tslib@npm:2.6.2"
-  checksum: 329ea56123005922f39642318e3d1f0f8265d1e7fcb92c633e0809521da75eeaca28d2cf96d7248229deb40e5c19adf408259f4b9640afd20d13aecc1430f3ad
   languageName: node
   linkType: hard
 
